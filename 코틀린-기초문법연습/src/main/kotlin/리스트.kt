@@ -22,5 +22,12 @@ fun main() {
 
     b.removeAt(1)
     println(b)
+
+    var c = mutableListOf<Int>()
+    println(c)
+    c.add(0, 1)
+    println(c)
+    c.add(0, 3)
+    println(c)
 }
 
